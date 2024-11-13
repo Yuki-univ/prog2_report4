@@ -52,36 +52,70 @@ public class Hero {
         }
     }
 
-    //以下getterメソッド    
+    //以下getterメソッド   
+     
+    /**
+     * nameを返すメソッド(getter)
+     * @return name
+     */
     public String getName(){
         return this.name;
     }
 
+    /**
+     * hitPointを返すメソッド(getter)
+     * @return hitPoint
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
 
+    /**
+     * attackを返すメソッド(getter)
+     * @return attack
+     */
     public int getAttack(){
         return this.attack;
     }
 
+    /**
+     * deadを返すメソッド(getter)
+     * @return dead
+     */
     public boolean getDead(){
         return this.dead;
     }
 
     //以下setterメソッド
+
+    /**
+     * nameを設定するためのメソッド(setter)
+     * @param name
+     */
     public void setName(String name){
         this.name = name;
     }
 
+    /**
+     * hitPointを設定するためのメソッド(setter)
+     * @param hitPoint
+     */
     public void setHitPoint(int hitPoint){
         this.hitPoint = hitPoint;
     }
 
+    /**
+     * attackを設定するためのメソッド(setter)
+     * @param attack
+     */
     public void setAttack(int attack){
         this.attack = attack;
     }
 
+    /**
+     * deadを設定するためのメソッド(setter)
+     * @param dead
+     */
     public void setDead(boolean dead){
         this.dead = dead;
     }
