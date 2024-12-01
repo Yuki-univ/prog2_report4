@@ -27,6 +27,10 @@ public class LivingThing {
         return hitPoint;
     }
 
+    public int getAttack(){
+        return attack;
+    }
+
     //setter
     public void setHitPoint(int hitPoint) {
         this.hitPoint = hitPoint;
